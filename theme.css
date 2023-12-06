@@ -1,0 +1,43 @@
+/* Overall body styling */
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+  }
+  
+  /* Jumbotron with gradient and shadow */
+  .jumbotron {
+    text-align: center;
+    background: linear-gradient(to right, #ff75f4 0%, #ff7eb3 100%);
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s;
+  }
+  
+  .jumbotron:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer styling */
+  footer.bg-light {
+    background-color: rgba(255, 255, 255, 0.9) !important; /* Override if necessary */
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Additional footer styling for text */
+  footer p {
+    color: #333;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .jumbotron {
+      margin: 0.5rem;
+    }
+  }
+  

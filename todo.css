@@ -1,0 +1,76 @@
+  /* Navbar pills with hover effect */
+  .nav > li > a {
+    background: transparent;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s, border-color 0.3s;
+  }
+  
+  .nav > li > a:hover,
+  .nav > li.active > a {
+    color: #ff758c;
+    border-bottom: 2px solid #ff758c;
+  }
+  
+  /* List group item hover effect */
+  .list-group-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-group-item:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Custom button styling */
+  .btn-custom {
+    background-color: #ff758c;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    margin: 0 0.25rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-custom:hover {
+    background-color: #ff7eb3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-custom:active {
+    transform: translateY(2px);
+  }
+  
+  /* Icon animations */
+  .glyphicon {
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-custom:active .glyphicon {
+    transform: scale(1.1);
+  }
+  
+  /* Input group styling */
+  .input-group {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .input-group:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .nav {
+      margin-bottom: 1rem;
+    }
+  }
+  
